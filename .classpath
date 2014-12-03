@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/1144c375f4c1f0d1b408cbdbea1e893b69197351/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/8f9b5ca2956bafdb7a76534fe44f84e7056e8248/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.0.BUILD-SNAPSHOT/8ec8ad0835aae0c5723b692af1371d777b03e6c1/spring-boot-starter-actuator-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.0.BUILD-SNAPSHOT/559cf76f61b8cdd0eb2f07417304808ddec35ef9/spring-boot-starter-actuator-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-jasper/8.0.15/bcb3f27a7a6ab77b5efeb63bde075def08e9790a/tomcat-embed-jasper-8.0.15-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-jasper/8.0.15/ef81e49cbc7f57249821f3be39a1f48b4693508a/tomcat-embed-jasper-8.0.15.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/javax/servlet/jstl/1.1.2/jstl-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/junit/junit/4.11/junit-4.11-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/junit/junit/4.11/junit-4.11.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.2.0.BUILD-SNAPSHOT/315648d8d1aa2d5b146394106874df3591397ef/spring-boot-starter-test-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.2.0.BUILD-SNAPSHOT/60f4ec9ca41cb321b4c7ea1041aac1d0fe6210b8/spring-boot-starter-test-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.2.0.BUILD-SNAPSHOT/c5ac4762f64aea4a78186ad5a07afda326fa4869/spring-boot-starter-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.2.0.BUILD-SNAPSHOT/25139271124e0f18482453c55071f89393dca8bf/spring-boot-starter-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.0.BUILD-SNAPSHOT/9ddddb0bf9362b89efddc193c750405952bd7504/spring-boot-starter-tomcat-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.0.BUILD-SNAPSHOT/4affa0c543e3d8534923737851ff10461bd2bed8/spring-boot-starter-tomcat-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/622aa2565d182ed609b25c4826124a5b687048a7/jackson-databind-2.4.3-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3/jackson-databind-2.4.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.3.Final/2bb7969a7c05ddd8474873981321cce43c688eb9/hibernate-validator-5.1.3.Final-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.3.Final/334d46a93cf095160ce06d8382594b904933c808/hibernate-validator-5.1.3.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/8e13279fdd9dca256230e7dc11b3ba0db7698d95/spring-core-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/4935c129d68b10820f17eee69e8feb1bf49e435/spring-core-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/afe7bf2d6113e3fd71719f6f8a7a4c9e80725bbf/spring-web-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/b1f4e1981c33ae0b514335bc029bb36de234d957/spring-web-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/81f7228d09496ef52a7de4ede28e74e4768dd855/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/237b6860723188c95eb1d362efd81158700f2248/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.15/31d545923e67df638d1d1cc482d61873cde7c5f5/tomcat-embed-core-8.0.15-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.15/acb0a3c681ee04cc5e391784263c1e636c65bbac/tomcat-embed-core-8.0.15.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.15/e4518347f2d15fd2fc21ab78489a3df2af26193f/tomcat-embed-el-8.0.15-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.15/e228eb4dc0cfa1d116f0b1b2bb8185556cb1a9b/tomcat-embed-el-8.0.15.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4/cae5bc498a10b9244168e64f2455cd6d72d4f907/ecj-4.4-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4/fe0a961ce7cca03dd3c9b3775c0133229e8231a6/ecj-4.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.8/73d1dbe5c848d01819d024337981840f9aeb2817/mockito-core-1.10.8-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.8/1447cf39e9d3fe35c10168a4b6ce1f8d688bd0e/mockito-core-1.10.8.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/c021a2fa5cec21383330ec28ba9e2463eb746a00/spring-test-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/7b9a3f1310c32ff8479bbf205fe28dcb272a22e1/spring-test-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/cdab5f7ff0408466a20d4c5e0684590e232712fb/spring-boot-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/f0a835e2a1b50f7fdf73456066f6debd96f1b1ff/spring-boot-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/17dd107d7fbf6173dd8f6c2d4b49f3cd0b61468/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/785d9d6cee9456ddb1fb652284774968ccb76189/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.0.BUILD-SNAPSHOT/cee9fd9ef957a85d148c20faba047ec6d5f476ff/spring-boot-starter-logging-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.0.BUILD-SNAPSHOT/6a72bd2678dece891b45fe29a6ddaadb4cabe312/spring-boot-starter-logging-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/4c6bcedc3efa772a5ae1c2fd01efee8e4d15edac/snakeyaml-1.14-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/c2df91929ed06a25001939929bff5120e0ea3fd4/snakeyaml-1.14.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.15/ee7edfca1a6402c38f62d92d2e7f601b72023c59/tomcat-embed-logging-juli-8.0.15-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.15/a93593a43f0df8ac14acd43c3ee2ec3f0cfd587d/tomcat-embed-logging-juli-8.0.15.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.15/a662bda1d5c76198832af7ea3fca0f0fced9fc11/tomcat-embed-websocket-8.0.15-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.15/25b151fade3315279a07b020cb42c1af95ff366b/tomcat-embed-websocket-8.0.15.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/7fcf3182660e0be49c7448e13f91e655b2cba9bf/jackson-annotations-2.4.0-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/31c4e5d7964ffce69d56777a167fb16af28440b7/jackson-core-2.4.3-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/4cb3dbb0c2f75b51aa7543c53252989785a0c609/jackson-core-2.4.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/com/fasterxml/classmate/1.0.0/classmate-1.0.0-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/8a059dac80e8c49b34eb0717c3b82fbebf842562/spring-aop-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/d6c07865c44d82783b02c231d739f5957ac1afd2/spring-aop-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/b281c38e8ef508b40570b5d08c8fe0dc09255268/spring-beans-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/79162537ecf3550ee63ed2a25132db654b69326e/spring-beans-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/6ba9b14fb0c857cd058db5a01b97060a51a7248c/spring-context-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/f8f5107fbf0f0a0ac4afa7fa839016c3cd9e111b/spring-context-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/2d11ad167666391be29864f5231227213951d0cc/spring-expression-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/70c69643dfcfe5d92272d69e7bc0d951e09b0ef1/spring-expression-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/784efd979e0fa0e0d1e547fe635e92cbb5dd4211/spring-webmvc-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/7989c866cf54ed399ea0bde9f15350c74323546/spring-webmvc-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>

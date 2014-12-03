@@ -1,0 +1,94 @@
+buildscript {
+	ext {
+		springBootVersion = '1.2.0.BUILD-SNAPSHOT'
+	}
+	repositories{
+	
+		mavenLocal()
+		mavenCentral()
+		maven { url "http://repo.spring.io/release" }
+		maven { url "http://repo.spring.io/milestone" }
+		maven { url "http://repo.spring.io/snapshot" }
+	}
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'spring-boot'
+
+
+
+war {
+    baseName = 'iris-hstore'
+    version =  '0.1.0'
+}
+
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url "http://repo.spring.io/release" }
+	maven { url "http://repo.spring.io/milestone" }
+	maven { url "http://repo.spring.io/snapshot" }
+    
+}
+
+dependencies {
+     //providedCompile 'javax.servlet:servlet-api:2.5'
+
+     compile("org.springframework.boot:spring-boot-starter-web") {
+        //exclude module: "spring-boot-starter-tomcat"
+    }
+
+    //compile("org.springframework.boot:spring-boot-starter-jetty")
+    // end::jetty[]
+    // tag::actuator[]
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+	compile 'org.springframework:spring-webmvc:3.2.2.RELEASE'
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	
+	runtime 'javax.servlet:jstl:1.1.2'
+    
+    providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
+
+	//test dependencies[]::start    
+    testCompile("junit:junit")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    //test dependencies[]::end
+}
+
+springBoot {
+    mainClass="demo.Application"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.11'
+}
+
+/*eclipse.project{
+ 	natures 'org.springsource.ide.eclipse.gradle.core.nature'
+ 	natures 'org.eclipse.jst.j2ee.web.WebNature'
+ 	natures 'org.eclipse.jdt.core.javanature'
+ 	natures 'org.eclipse.wst.common.modulecore.ModuleCoreNature'
+}
+*/
+
+//generate eclipse web-project
+/*eclipse.wtp {
+     facet {
+facet name: 'jst.java', version: '1.7' // Java 7
+facet name: 'jst.web', version: '3.0' // Servlet 3.0
+facet name: 'jpt.jpa', version: '2.1' // JPA 2.1
+} 
+}
+*/
+defaultTasks 'clean', 'build'
+// other tasks: cleanEclipse eclipseProject eclipse bootRun
+
+//######DEBUG###########//
+applicationDefaultJvmArgs = [
+    "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
+]
