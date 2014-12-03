@@ -7,12 +7,12 @@
 	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/1144c375f4c1f0d1b408cbdbea1e893b69197351/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/8f9b5ca2956bafdb7a76534fe44f84e7056e8248/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/7e1809033127ed16b90dc4a9e4448704dcb82d1e/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/5844314ff18c9fdffc969efd71420731c0cdf5f0/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.0.BUILD-SNAPSHOT/8ec8ad0835aae0c5723b692af1371d777b03e6c1/spring-boot-starter-actuator-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.0.BUILD-SNAPSHOT/559cf76f61b8cdd0eb2f07417304808ddec35ef9/spring-boot-starter-actuator-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.0.BUILD-SNAPSHOT/55db12d7976967e05d93d50bbe8a2d9786d3485b/spring-boot-starter-actuator-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.2.0.BUILD-SNAPSHOT/59270acb075072a34a5961cd5e002211e738270c/spring-boot-starter-actuator-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
@@ -22,53 +22,59 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/javax/servlet/jstl/1.1.2/jstl-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.1.2/4e00791e2808d648c5f519fea019016edfba6fe7/jstl-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.1.2/3375e43c620df4f1114959400ff9bb90d12a2feb/jstl-1.1.2.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/junit/junit/4.11/junit-4.11-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/junit/junit/4.11/junit-4.11.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/f3289e8097c0013b711d058b563064c3bded4423/junit-4.11-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.2.0.BUILD-SNAPSHOT/b8287ff6e5a58b57dcd5be39ee67905148b29e76/spring-boot-starter-test-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.2.0.BUILD-SNAPSHOT/f25bcd73382dc79a137ad1df83cfebfcee9c09a2/spring-boot-starter-test-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.2.0.BUILD-SNAPSHOT/315648d8d1aa2d5b146394106874df3591397ef/spring-boot-starter-test-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.2.0.BUILD-SNAPSHOT/60f4ec9ca41cb321b4c7ea1041aac1d0fe6210b8/spring-boot-starter-test-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.2.0.BUILD-SNAPSHOT/924e810fa25ba43636aa0d70962d5b2f2f04d9a8/spring-boot-starter-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.2.0.BUILD-SNAPSHOT/ba5c18da9eb2da33ebd3c44f6778cb3e541d7645/spring-boot-starter-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.2.0.BUILD-SNAPSHOT/c5ac4762f64aea4a78186ad5a07afda326fa4869/spring-boot-starter-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.2.0.BUILD-SNAPSHOT/25139271124e0f18482453c55071f89393dca8bf/spring-boot-starter-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.0.BUILD-SNAPSHOT/9ddddb0bf9362b89efddc193c750405952bd7504/spring-boot-starter-tomcat-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.0.BUILD-SNAPSHOT/4affa0c543e3d8534923737851ff10461bd2bed8/spring-boot-starter-tomcat-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.0.BUILD-SNAPSHOT/df43902b91a168a5b7197f32d78dd3cfa943e6a5/spring-boot-starter-tomcat-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.0.BUILD-SNAPSHOT/a401deea8baf8bd4dccbae98804d3cb621a3aebe/spring-boot-starter-tomcat-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/622aa2565d182ed609b25c4826124a5b687048a7/jackson-databind-2.4.3-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3/jackson-databind-2.4.3.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/6cc6c17a27c1c941eba9665a358b9c9e3e666a01/jackson-databind-2.4.3-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.3.Final/2bb7969a7c05ddd8474873981321cce43c688eb9/hibernate-validator-5.1.3.Final-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.3.Final/334d46a93cf095160ce06d8382594b904933c808/hibernate-validator-5.1.3.Final.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.3.Final/4390a6a9cb81b0a598424877602265605953c042/hibernate-validator-5.1.3.Final-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/8e13279fdd9dca256230e7dc11b3ba0db7698d95/spring-core-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/4935c129d68b10820f17eee69e8feb1bf49e435/spring-core-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/dcc8f9c4001ba89003804e6e02b34b1986c9bd84/spring-core-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/6b618a6db4ff59638c44a9cc0d4e8575401ec337/spring-core-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.3.BUILD-SNAPSHOT/fcd290917cfdcfec527387eff40c3f094feffbe8/spring-core-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/afe7bf2d6113e3fd71719f6f8a7a4c9e80725bbf/spring-web-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/b1f4e1981c33ae0b514335bc029bb36de234d957/spring-web-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/5062b33462084a7e4ae4bec9b4425efe7dccf3e4/spring-web-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/d7a1616cd51ad156752cee727e9d3546c3a803de/spring-web-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.3.BUILD-SNAPSHOT/f113f2c4ccc984b509da21949aafe994b0dd5f6a/spring-web-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/81f7228d09496ef52a7de4ede28e74e4768dd855/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/237b6860723188c95eb1d362efd81158700f2248/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/86ff2e7936cc9e46cfc8893409dcf9cc9d66463/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/1ff01027ca716f896f12246ffe9f46cb96754340/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.2.0.BUILD-SNAPSHOT/1a8292d28f9ea9603118bb05d912318c43660fec/spring-boot-actuator-1.2.0.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
@@ -84,46 +90,54 @@
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4/cae5bc498a10b9244168e64f2455cd6d72d4f907/ecj-4.4-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4/fe0a961ce7cca03dd3c9b3775c0133229e8231a6/ecj-4.4.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4/eedd14b146d3b890c8797fa4f49216e1c39da276/ecj-4.4-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/ad09811315f1d4f5756986575b0ea16b99cd686f/hamcrest-core-1.3-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.8/73d1dbe5c848d01819d024337981840f9aeb2817/mockito-core-1.10.8-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.8/1447cf39e9d3fe35c10168a4b6ce1f8d688bd0e/mockito-core-1.10.8.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.8/ee17bb860376affb6687b0b4f4908448f51c2081/mockito-core-1.10.8-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4324046c5f99f3dc91b5370899fa3ae65fd137d2/hamcrest-library-1.3-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/c021a2fa5cec21383330ec28ba9e2463eb746a00/spring-test-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/7b9a3f1310c32ff8479bbf205fe28dcb272a22e1/spring-test-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/62c4e455eca51137d809cb1603693afeac76a992/spring-test-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/652432b730e46474785ce3d76cd659dda1112f28/spring-test-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.1.3.BUILD-SNAPSHOT/2f63cb92e37edd9e80d98fa6bb806750745a3692/spring-test-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/cdab5f7ff0408466a20d4c5e0684590e232712fb/spring-boot-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/f0a835e2a1b50f7fdf73456066f6debd96f1b1ff/spring-boot-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/ac66284ab1074c82b4e61896953cf82fbbe43d3a/spring-boot-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/3ee168096f9155429c9641fe13c392fb4968e7d9/spring-boot-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.2.0.BUILD-SNAPSHOT/3a1a28b4ef4b5b9779f6a53df1c6e048a2ff63af/spring-boot-1.2.0.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/17dd107d7fbf6173dd8f6c2d4b49f3cd0b61468/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/785d9d6cee9456ddb1fb652284774968ccb76189/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/f5f388c79bf828829fdfc8b29439cb254be60424/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/86d2fa1cc33abb9fd472266fc8f85b3c146dae70/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.2.0.BUILD-SNAPSHOT/1aacfbc7ff365461dc589c29bf8b43cf3da5f628/spring-boot-autoconfigure-1.2.0.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.0.BUILD-SNAPSHOT/cee9fd9ef957a85d148c20faba047ec6d5f476ff/spring-boot-starter-logging-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.0.BUILD-SNAPSHOT/6a72bd2678dece891b45fe29a6ddaadb4cabe312/spring-boot-starter-logging-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.0.BUILD-SNAPSHOT/d5b8225f6be7aade78c5a3ff6425aa23e9575f0c/spring-boot-starter-logging-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.2.0.BUILD-SNAPSHOT/56e6ea0a9c8e2b1486158d6fda07cbfd4b31e59d/spring-boot-starter-logging-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/4c6bcedc3efa772a5ae1c2fd01efee8e4d15edac/snakeyaml-1.14-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/c2df91929ed06a25001939929bff5120e0ea3fd4/snakeyaml-1.14.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/489522af9365afe3c405aa433e5ce08f7c556e5a/snakeyaml-1.14-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
@@ -139,96 +153,114 @@
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/7fcf3182660e0be49c7448e13f91e655b2cba9bf/jackson-annotations-2.4.0-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/a2a21c04718f31fb36b497cb8792e7654263fd61/jackson-annotations-2.4.0-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/31c4e5d7964ffce69d56777a167fb16af28440b7/jackson-core-2.4.3-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/4cb3dbb0c2f75b51aa7543c53252989785a0c609/jackson-core-2.4.3.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/e5fd8069847dedb4ba02e79b15c87ea00ed0603b/jackson-core-2.4.3-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/9f3d019c10d629fa8259af61ac83e88bb186c4e9/validation-api-1.1.0.Final-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/4d2c4df2c1a1b2d2f9201f6d580d7d19ccf8cbdf/jboss-logging-3.1.3.GA-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/ebe91975d5721dc0150a5975bdb24285e09248a9/jboss-logging-3.1.3.GA-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/com/fasterxml/classmate/1.0.0/classmate-1.0.0-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/da0cec0cf5fa28fba22e44700d72259e0225f2e4/classmate-1.0.0-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/434efef28c81162b17c540e634cffa3bd9b09b4c/classmate-1.0.0.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/c4b7a663a321db0515f1a37cc8029468757696c/classmate-1.0.0-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/8a059dac80e8c49b34eb0717c3b82fbebf842562/spring-aop-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/d6c07865c44d82783b02c231d739f5957ac1afd2/spring-aop-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/5db4856a29a814d28a4310b748d607c14b261565/spring-aop-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/9bc19a8998f6ab75f31f480750a1c368e6abd3a5/spring-aop-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.3.BUILD-SNAPSHOT/d64468640aac83bc073fe34e25884e109dc0f2a8/spring-aop-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/b281c38e8ef508b40570b5d08c8fe0dc09255268/spring-beans-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/79162537ecf3550ee63ed2a25132db654b69326e/spring-beans-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/60057835c417bac0a9a4950786ea7d67b532cbad/spring-beans-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/b79db31261746f601838eb02aea392df18f57fb4/spring-beans-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.3.BUILD-SNAPSHOT/279d14a55c7538bc6a9fd96bb04e1a4c5e8f6ee9/spring-beans-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/6ba9b14fb0c857cd058db5a01b97060a51a7248c/spring-context-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/f8f5107fbf0f0a0ac4afa7fa839016c3cd9e111b/spring-context-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/ef7922a32e050f52183661aefffd8e7876f9f101/spring-context-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/d04b15d7b767f91cacd08932bacaaf1be8b3f615/spring-context-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.3.BUILD-SNAPSHOT/8db5bd0725f8686f535c2763b2cbb61bbafe8cee/spring-context-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/cad27a134a9b0d295341abcaf3de9d25e1534ae6/objenesis-2.1-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/b5a646b81b899e930f8600c5f45766dd82743d93/jcl-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/56003dcd0a31deea6391b9e2ef2f2dc90b205a92/jcl-over-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/e64bfcfeaec0aa84d2d943763fc06cd457138483/jcl-over-slf4j-1.7.7-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.7/13cbf9161382f50c1862bc371bf5c8aab05a664c/jul-to-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.7/def21bc1a6e648ee40b41a84f1db443132913105/jul-to-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.7/8a3bc8b71eb7c5e64a5cbfd686b4a9d6bf8f694c/jul-to-slf4j-1.7.7-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.7/307e030bc37259ad60dce614530d698ac74c4dc/log4j-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.7/d521cb26a9c4407caafcec302e7804b048b07cea/log4j-over-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.7/470544403200706615308cbcb60665e1f92923ce/log4j-over-slf4j-1.7.7-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/decd76e2c461157804473468bbdc6b8eb6d6121b/logback-classic-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/bc607e83fa5c5862d67aebede1ae734450397f38/logback-classic-1.1.2-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/526e0f5cfc8e7bd32a33f51f800327ee31594340/spring-expression-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/597ece9b5c089811b8de18a781ff1129e03ce979/spring-expression-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/94b64d9bec0f5bde86b7be2fb26c9a6720b6bea5/spring-expression-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/f7f3d9c6e2f145a2cc37931c4b604c7f5e96c6c/slf4j-api-1.7.7-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/502e1c764542fe747896c1dc04f023acfe0e5cbc/logback-core-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/63285766a5d430cc2ea0733b08701ae0bb6d081f/logback-core-1.1.2-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" exported="true">
+	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/cbf8396b293baec198bfb7a8a816d3a4c617c2cf/spring-webmvc-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/6ae5a82c005b448db8a2bc6b03f7a8303b3e8ea8/spring-webmvc-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/2d11ad167666391be29864f5231227213951d0cc/spring-expression-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.3.BUILD-SNAPSHOT/70c69643dfcfe5d92272d69e7bc0d951e09b0ef1/spring-expression-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2-sources.jar" kind="lib" path="/home/alexciocan/.m2/artifactory/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/784efd979e0fa0e0d1e547fe635e92cbb5dd4211/spring-webmvc-4.1.3.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/7989c866cf54ed399ea0bde9f15350c74323546/spring-webmvc-4.1.3.BUILD-SNAPSHOT.jar" exported="true">
-		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.3.BUILD-SNAPSHOT/a37035e16e79bf30a0e1517ff280b723187af199/spring-webmvc-4.1.3.BUILD-SNAPSHOT-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" exported="true">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/alexciocan/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/83033ee697035dfb9ce3503e1ac0c5a33021e503/commons-logging-1.2-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>

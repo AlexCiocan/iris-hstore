@@ -8,8 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController {
     @RequestMapping("/hello")
-    public String index(ModelAndView mav) {
-        mav.addObject("helloMessage", "Greetings from GradleSpringBoot");
-        return "hello";
+    public ModelAndView index() {
+        ModelAndView mav=new ModelAndView("hello");
+    	mav.addObject("helloMessage", "Greetings from GradleSpringBoot");
+        return mav;
     }
 }

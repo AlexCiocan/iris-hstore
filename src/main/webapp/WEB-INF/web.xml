@@ -5,9 +5,10 @@
 	version="3.0">
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/web-application-config.xml</param-value>
+		<param-value>/WEB-INF/web-application-integration.xml</param-value>
 	</context-param>
 	
+	<servlet>
 	<servlet-name>dispatcherServlet</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
@@ -22,13 +23,22 @@
            	demo.config.WebMvcConfig
         </param-value>
     </init-param>
-    
+    </servlet>
+    <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>
+        /WEB-INF/spring-security.xml
+    </param-value>
+	</context-param>
     <listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
 
-	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
+<!-- 	<listener> -->
+<!-- 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> -->
+<!-- 	</listener> -->
+		<listener>
+        <listener-class>org.springframework.boot.legacy.context.web.SpringBootContextLoaderListener</listener-class>
+    </listener>
 
 </web-app>

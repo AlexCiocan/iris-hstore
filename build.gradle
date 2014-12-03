@@ -92,3 +92,12 @@ defaultTasks 'clean', 'build'
 applicationDefaultJvmArgs = [
     "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
 ]
+
+eclipse.classpath.downloadJavadoc = true // defaults to 'false'
+eclipse.classpath.downloadSources = true
+
+eclipse {
+    classpath {
+       downloadSources=true
+    }
+}
