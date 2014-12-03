@@ -4,7 +4,7 @@ buildscript {
 	}
 	repositories{
 	
-		mavenLocal()
+		//mavenLocal()
 		mavenCentral()
 		maven { url "http://repo.spring.io/release" }
 		maven { url "http://repo.spring.io/milestone" }
@@ -28,7 +28,7 @@ war {
 
 
 repositories {
-    mavenLocal()
+    //mavenLocal()
     mavenCentral()
     maven { url "http://repo.spring.io/release" }
 	maven { url "http://repo.spring.io/milestone" }
@@ -99,5 +99,14 @@ eclipse.classpath.downloadSources = true
 eclipse {
     classpath {
        downloadSources=true
+    }
+}
+
+eclipse.classpath.file {
+    // Classpath entry for Eclipse which changes the order of classpathentries; otherwise no sources for 3rd party jars are shown
+    withXml { xml ->
+        def node = xml.asNode()
+        node.remove( node.find { it.@path == 'org.eclipse.jst.j2ee.internal.web.container' } )
+        node.appendNode( 'classpathentry', [ kind: 'con', path: 'org.eclipse.jst.j2ee.internal.web.container', exported: 'true'])
     }
 }

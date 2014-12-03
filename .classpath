@@ -6,7 +6,6 @@
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
 	<classpathentry sourcepath="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/7e1809033127ed16b90dc4a9e4448704dcb82d1e/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/alexciocan/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.0.BUILD-SNAPSHOT/5844314ff18c9fdffc969efd71420731c0cdf5f0/spring-boot-starter-web-1.2.0.BUILD-SNAPSHOT.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
@@ -264,4 +263,5 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
 </classpath>
