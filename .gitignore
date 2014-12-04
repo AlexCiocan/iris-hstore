@@ -4,3 +4,4 @@
 .gradle/2.2.1/taskArtifacts/
 build/
 .gitignore~
+/bin/

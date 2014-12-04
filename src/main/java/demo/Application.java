@@ -56,8 +56,8 @@ public class Application extends SpringBootServletInitializer {
 		// Create the 'root' Spring application contex
 		//AnnotationConfigWebApplicationContext rootContext = new AnnotationConfigWebApplicationContext();
 		AnnotationConfigWebApplicationContext rootContext=new AnnotationConfigWebApplicationContext();	
-//				rootContext.setConfigLocation("/WEB-INF/web-application-integration-config.xml");
-		rootContext.register(Application.class);
+		rootContext.setConfigLocation("/WEB-INF/web-application-integration-config.xml");
+		
 		// Manage the lifecycle of the root application context
 		servletContext.addListener(new ContextLoaderListener(rootContext));
 
@@ -65,7 +65,6 @@ public class Application extends SpringBootServletInitializer {
 		AnnotationConfigWebApplicationContext dispatcherContext = new AnnotationConfigWebApplicationContext();
 		
 		dispatcherContext.register(Application.class);
-		servletContext.addListener(new ContextLoaderListener(dispatcherContext));
 		
 		// Register and map the dispatcher servlet
 		ServletRegistration.Dynamic dispatcher = servletContext.addServlet(
@@ -75,7 +74,7 @@ public class Application extends SpringBootServletInitializer {
 
 		servletContext.addFilter("characterEncodingFilter",
 				CharacterEncodingFilter.class);
-		servletContext.addListener(new ContextLoaderListener(appContext));
+		
 		super.onStartup(servletContext);
 	}
 
