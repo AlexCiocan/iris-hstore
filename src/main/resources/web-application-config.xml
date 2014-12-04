@@ -7,5 +7,7 @@
     http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
 	<context:property-placeholder ignore-unresolvable="true" location="datasource.properties"/>
+	
 	<import resource="web-application-integration.xml"/>
+	
 </beans>
