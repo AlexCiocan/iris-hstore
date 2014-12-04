@@ -1,16 +1,16 @@
 buildscript {
 	ext {
 		springBootVersion = '1.2.0.BUILD-SNAPSHOT'
-		springVersion = '3.2.2.RELEASE'
+		springVersion = '3.2.3.RELEASE'
 		jstlVersion = '1.1.2'
 	}
 	repositories{
 	
-		//mavenLocal()
 		mavenCentral()
 		maven { url "http://repo.spring.io/release" }
 		maven { url "http://repo.spring.io/milestone" }
 		maven { url "http://repo.spring.io/snapshot" }
+		mavenLocal()
 	}
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -30,11 +30,12 @@ war {
 
 
 repositories {
-    //mavenLocal()
+
     mavenCentral()
     maven { url "http://repo.spring.io/release" }
 	maven { url "http://repo.spring.io/milestone" }
 	maven { url "http://repo.spring.io/snapshot" }
+	mavenLocal()
     
 }
 
@@ -46,11 +47,16 @@ dependencies {
     }
 
    
-    // end::jetty[]
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
 	compile 'org.springframework:spring-webmvc:${springVersion}'
-	compile 'org.springframework.boot:spring-boot-starter-web'
+//	compile 'org.springframework.boot:spring-boot-starter-web'
+	
+	runtime 'org.springframework:spring-tx:4.0.6.RELEASE'
+	runtime 'commons-dbcp:commons-dbcp:1.2.2'
+	runtime 'org.springframework:spring-orm:3.2.3.RELEASE'
+	runtime 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+	runtime 'org.hibernate:hibernate-entitymanager:4.3.5.Final'
 	
 	runtime 'javax.servlet:jstl:1.1.2'
     

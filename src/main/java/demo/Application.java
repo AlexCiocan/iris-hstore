@@ -16,6 +16,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
@@ -25,6 +26,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
+@ImportResource(value = { "classpath:web-application-config.xml" })
 public class Application extends SpringBootServletInitializer {
 	@Autowired
 	private WebApplicationContext appContext;
