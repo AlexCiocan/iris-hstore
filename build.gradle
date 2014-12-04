@@ -52,11 +52,14 @@ dependencies {
 	compile 'org.springframework:spring-webmvc:${springVersion}'
 //	compile 'org.springframework.boot:spring-boot-starter-web'
 	
+	compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+	compile 'org.hibernate:hibernate-entitymanager:4.3.5.Final'
+	
 	runtime 'org.springframework:spring-tx:4.0.6.RELEASE'
 	runtime 'commons-dbcp:commons-dbcp:1.2.2'
 	runtime 'org.springframework:spring-orm:3.2.3.RELEASE'
-	runtime 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
-	runtime 'org.hibernate:hibernate-entitymanager:4.3.5.Final'
+	
+	
 	
 	runtime 'javax.servlet:jstl:1.1.2'
     

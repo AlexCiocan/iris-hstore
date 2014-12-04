@@ -44,7 +44,7 @@
 				<!-- <prop key="hibernate.hbm2ddl.import_files" value="/database.sql"/> -->
 			</props>
 		</property>
-		<property name="packagesToScan" value="de.einsundeins.lgs.iris.domain" />
+		<property name="packagesToScan" value="demo.domain" />
 	</bean>
 
 	<bean id="jpaVendorAdapter"
