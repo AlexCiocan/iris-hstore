@@ -20,10 +20,15 @@ import demo.repository.LeadStorageRepository;
 
 @Repository("leadStorageRepository")
 public class LeadStorageRepositoryImpl implements LeadStorageRepository {
-    private static final Logger LOGGER = LoggerFactory.getLogger(LeadStorageRepositoryImpl.class);
 
     @PersistenceContext
     private EntityManager em;
+    
+    @Override
+    public Lead getLead(Long leadId)
+    {
+    	return em.find(Lead.class,leadId);
+    }
 
     @Override
     public List<Lead> getLead(Long orderId, Long partnerId) {
@@ -99,15 +104,15 @@ public class LeadStorageRepositoryImpl implements LeadStorageRepository {
         return this.em;
     }
 
-    private Long getCount(String countQuery) {
-        Number count = (Number) getEntityManager().createNativeQuery(countQuery).getSingleResult();
-        return count.longValue();
-    }
-
-    @SuppressWarnings("unchecked")
-    private List<Object[]> listLeadColumns(String query) {
-        List<Object[]> leadColumns = getEntityManager().createNativeQuery(query).getResultList();
-        return leadColumns;
-
-    }
+//    private Long getCount(String countQuery) {
+//        Number count = (Number) getEntityManager().createNativeQuery(countQuery).getSingleResult();
+//        return count.longValue();
+//    }
+//
+//    @SuppressWarnings("unchecked")
+//    private List<Object[]> listLeadColumns(String query) {
+//        List<Object[]> leadColumns = getEntityManager().createNativeQuery(query).getResultList();
+//        return leadColumns;
+//
+//    }
 }

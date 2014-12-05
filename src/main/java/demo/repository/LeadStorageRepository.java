@@ -9,6 +9,8 @@ import demo.domain.LeadData;
 
 public interface LeadStorageRepository {
     public List<Lead> getLead(Long orderId, Long partnerId);
+    
+    public Lead getLead(Long leadId);
 
     public LeadData getLeadData(Long leadId);
 
