@@ -35,6 +35,7 @@ public class LeadFacade {
 		dto.setPartnerId(lead.getPartnerId());
 		dto.setProductId(lead.getProductId());
 		dto.setStatus(lead.getStatus());
+		dto.setPayload(lead.getPayload().getPayload());
 		return dto;
 	}
 }
